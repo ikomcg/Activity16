@@ -1,0 +1,92 @@
+header h1{
+    color: #000;
+    margin: 0;
+
+}
+header h1 span{
+    color: rgb(255, 193, 23);
+}
+header div.right-nav{
+    width: 50%;
+}
+header div.right-nav ul {
+    margin: 0;
+}
+header div.right-nav ul li{
+    list-style: none;
+
+}
+header div.right-nav ul li a{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+header button{
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+section{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0, .8)),url('image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .left-side{
+    width: 40%;
+}
+section p{
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+}
+section p span{
+    color: rgb(255, 193, 23);
+}
+section .right-side{
+    background-color: #ffffff;
+    box-shadow: 15px 15px 2px 3px rgba(0,0,0, .5) ;
+    width: 50%;
+}
+section .right-side form{
+    width: 80%;
+    margin: 0 auto;
+}
+section .right-side form h2{
+    color: rgb(255, 193, 23);
+}
+@media (max-width:1200px){
+    header div.right-nav{
+        display: none;
+    }
+    header button{
+        display: block;
+    }
+}
+@media (max-width:990px){
+    section p{
+        font-size: 40px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+}
+@media (max-width:820px){
+    section div.container{
+        flex-flow: column;
+        justify-content: start;
+    }
+    section p{
+        font-size: 30px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    section .left-side{
+        width: 100%;
+    }
+    section .right-side{
+        width: 100%;
+    }
+}
