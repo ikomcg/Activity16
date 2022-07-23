@@ -3,26 +3,31 @@ header h1{
     margin: 0;
 
 }
+
 header h1 span{
     color: rgb(255, 193, 23);
 }
-header div.right-nav{
+header div.container{
+    padding: 0;
+}
+header nav{
     width: 50%;
 }
-header div.right-nav ul {
+header nav ul {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-header div.right-nav ul li{
+header nav ul li{
     list-style: none;
 
 }
-header div.right-nav ul li a{
+header nav ul li a{
     color: #000;
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
 }
+
 header button{
     display: none;
     border: none;
@@ -60,7 +65,7 @@ section .right-side form h2{
     color: rgb(255, 193, 23);
 }
 @media (max-width:1200px){
-    header div.right-nav{
+    header nav{
         display: none;
     }
     header button{
